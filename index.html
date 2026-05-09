@@ -19,11 +19,11 @@
     <link rel="stylesheet" href="./css/media.css">
 </head>
 
-<body class="position-relative">
+<body class="position-relative" data-bs-spy="scroll" data-bs-target="#navbar-example"> 
 
     <!-- navbar -->
 
-    <nav class="navbar navbar-expand-lg   bg-black navbar-dark fixed-top ">
+    <nav class="navbar navbar-expand-lg   bg-black navbar-dark fixed-top " id="navbar-example">
 
         <div class="container-xxl   text-light">
 
@@ -35,7 +35,7 @@
 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link  " aria-current="page" href="#home">Home</a>
+                        <a class="nav-link active " aria-current="page" href="#home">Home</a>
                     </li>
 
                     <li class="nav-item">
@@ -409,12 +409,12 @@
 
                 <button class="carousel-control-prev active" type="button" data-bs-target="#carouselExampleInterval"
                     data-bs-slide="prev">
-                    <i class="fa-solid fa-arrow-left fs-2 "></i>
+                    <i class="fa-solid fa-arrow-left fs-5 "></i>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next active" type="button" data-bs-target="#carouselExampleInterval"
                     data-bs-slide="next">
-                    <i class="fa-solid fa-arrow-right fs-2 btn-i "></i>
+                    <i class="fa-solid fa-arrow-right fs-5 btn-i "></i>
                     <span class="visually-hidden">Next</span>
                 </button>
                 <button class="shiny  fw-bold  py-3 secend-btn px-lg-4 rounded- ">Watch tournament</button>
@@ -440,7 +440,7 @@
                 <p class="fs-1 text-white fw-bolder ">We Build <span class="text-lime">Interactive</span> Journeys</p>
             </div>
 
-            <div class="row">
+            <div class="row ">
                 <div class="inner py-4  col-sm-6 col-md-4 col-lg-3 ">
                     <div class="my-card d-flex align-items-center justify-content-center flex-column p-5  gap-2">
                         <div class="tv rounded-2 p-1 ">
@@ -1039,7 +1039,7 @@
     <!-- contact -->
 
 
-    <div id="contact" class="contact min-vh-100 ">
+    <section id="contact" class="contact min-vh-100 ">
 
         <div class="container">
             <div class="title text-center   ">
@@ -1179,7 +1179,7 @@
             </div>
 
         </div>
-    </div>
+    </section>
 
     <!-- contact -->
 
@@ -1190,7 +1190,7 @@
         <div class="container">
             <div class="foot-head">
                 <div class="row">
-                    <div class="foot-card col-6 col-md-6 col-sm-12 col-lg-3">
+                    <div class="foot-card  col-md-6 col-sm-12 col-lg-3">
                         <div class="f-logo">
                             <i class="fa-solid fa-gamepad fs-5  " style="color: #cbfe1c;"></i>
                             <span> GameArena
@@ -1209,7 +1209,7 @@
 
                     </div>
 
-                    <div class="col-6 col-md-6 col-sm-12 col-lg-3 foot-ank">
+                    <div class=" col-md-6 col-sm-12 col-lg-3 foot-ank">
                         <h4>Games</h4>
                         <div class="my-ul">
                             <li><a href="#">VALORANT</a></li>
@@ -1220,7 +1220,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-md-6 col-sm-12 col-lg-3 foot-ank">
+                    <div class=" col-md-6 col-sm-12 col-lg-3 foot-ank">
                         <h4>Tournaments</h4>
                         <div class="my-ul">
                             <li><a href="#">Upcoming Events</a></li>
@@ -1231,7 +1231,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-md-6 col-sm-12 col-lg-3 foot-ank">
+                    <div class=" col-md-6 col-sm-12 col-lg-3 foot-ank">
                         <h4>Support</h4>
                         <div class="my-ul">
                             <li><a href="#">Help Center</a></li>

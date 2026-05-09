@@ -273,9 +273,7 @@ div.slider {
   padding-block: var(--main-padding);
   overflow: visible !important;
 }
-.carousel-inner {
-  overflow: visible !important;
-}
+ 
 .carousel-item {
   overflow: visible !important;
 }
